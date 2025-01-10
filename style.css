@@ -64,7 +64,7 @@
 
 .background-img::before {
     content: '';
-    background-image: url('./img/bg.webp');  /* change the path to your image */
+    background-image: url('./bg.webp');  /* change the path to your image */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
