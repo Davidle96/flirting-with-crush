@@ -65,7 +65,7 @@ document.querySelector('.btn-yes').addEventListener('click', function() {
         document.querySelector('.btn-yes').classList.add('btn-hidden');
         document.querySelector('.btn-no').classList.add('btn-hidden');
         const linkButton = document.createElement('a');
-        linkButton.href = 'https://www.facebook.com/dat.lequocdat6996/'; // change your link here
+        linkButton.href = 'https://m.me/dat.lequocdat6996/'; // change your link here
         linkButton.className = 'btn btn-primary btn-messenger';
         linkButton.innerText = 'Để lại lời nhắn cho mình nha 🥰'; //change the text here
         document.querySelector('.btn-group').appendChild(linkButton);
