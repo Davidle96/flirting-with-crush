@@ -2,11 +2,11 @@
 window.addEventListener('load', function() {
     setTimeout(function() {
         document.querySelector('.loader-container').classList.add('loader-hidden');
-    }, 1);
+    }, 3000);
     
     setTimeout(function() {
         document.querySelector('.loader').classList.add('loader-hidden');
-    }, 1);
+    }, 2500);
 });
 
 // send message to your email
